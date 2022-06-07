@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="http://127.0.0.1:5500/start_page/home_page.html">Home</a>
+            <div class="subnav">
+              <button class="subnavbtn">Select <i class="fa fa-caret-down"></i></button>
+              <div class="subnav-content">
+                <a href="http://127.0.0.1:5500/start_page/dice/dice.html">Roll the Dice</a>
+                <a href="http://127.0.0.1:5500/start_page/Test/fire.html#home">Score Checker</a>
+                <a href="http://127.0.0.1:5500/start_page/default/index.html">Counter & Name</a>
+                <a href="http://127.0.0.1:5500/start_page/weather/weather.html">Thermometer</a>
+                <a href="http://127.0.0.1:5500/start_page/snake/snake.html">Snake</a>
+              </div>
+            </div> 
+    </header>
+
+
+
+    <div id="gameContainer">
+        <canvas id="gameBoard" width="500" height="500"></canvas>
+        <div id="scoreText">0</div>
+        <div id="highScore">
+        <label>Highscore: </label>
+        <a id="david">0</a>
+        </div>
+        <button id="resetBtn">Reset</button>
+    </div>
+    <script src="snake.js"></script>
+</body>
+</html>
